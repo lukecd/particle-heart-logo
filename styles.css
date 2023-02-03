@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#canvas1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: radial-gradient(#fef4ee, #ffffff);
+	border: black;
+	border-style: solid;
+	border-width: 5px;
+}
+
+#canvas2 {
+	position: absolute;
+}
+
+.controls {
+	position: absolute;
+	z-index: 100;
+}
+
+img {
+	display: none;
+}
+
+.canvas-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 600px;
+	height: 600px;
+}
+#canvas1 {
+	position: absolute;
+	background-color: lightgrey;
+}
+#playButton {
+	position: absolute;
+	left: 90%;
+	top: 95%;
+}
